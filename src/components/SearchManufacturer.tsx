@@ -48,7 +48,7 @@ export default function SearchManufacturer({
                   className="search-manufacturer__option"
                   value={query}
                 >
-                  create "{query}"
+                  create {query}
                 </Combobox.Option>
               ) : (
                 filtredManufacture.map((item) => (
